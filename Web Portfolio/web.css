@@ -1,0 +1,271 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-bottom: 2px solid white;
+}
+
+.header img {
+    height: 80px;
+    position: absolute;
+    left: 30px;
+}
+
+.body {
+    height: 500px;
+    width: 710px;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+}
+
+.perinfo {
+    height: 50px;
+    width: 270px;   
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.perinfo h2 {
+    color: whitesmoke;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.perinfo h3 {
+    color: whitesmoke;
+    font-family: Garamond;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.prof_pic {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 120px;
+}
+
+.prof_pic img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.main_info {
+    width: 420px;
+    position: absolute;
+    left: 290px;
+    top: 120px;
+}
+
+.main_info h2 {
+    font-size: 40px;
+    font-family: Trebuchet MS;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.main_info h3 {
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.add_info {
+    height: 100px;
+    width: 420px;
+    position: absolute;   
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: beige 4px solid;
+    top: 90px;
+}
+
+.add_info_school {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-bottom: white 4px solid;
+    border-left: white 4px solid;
+}
+
+.add_info_school p {
+    position: absolute;
+    left: 20px;
+    top: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.add_info_school:hover {
+    background-color: #2d3e4eb6;
+}
+
+
+.add_info_projects {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 160px;
+    border-radius:50%;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-bottom: white 4px solid;
+    border-left: white 4px solid;
+}
+
+.add_info_projects:hover {
+    background-color: #2d3e4eb6;
+}
+
+.add_info_projects p {
+    position: absolute;
+    left: 10px;
+    top: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.add_info_contacts {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-bottom: white 4px solid;
+    border-left: white 4px solid;
+}
+
+.add_info_contacts:hover {
+    background-color: #2d3e4eb6;
+}
+
+.add_info_contacts p {
+    position: absolute;
+    left: 16px;
+    top: 28px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+.description {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 420px;
+    top: 210px;
+    left: 0px;
+    border-bottom: beige 4px solid;
+    border-radius: 15px;
+}
+
+.description pre {
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 4px;
+    margin: 0px;
+}
+
+.contact_info {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-top: 2px solid white;
+}
+
+.twitter {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.twitter pre {
+    color: white;
+    font-size: large;
+}
+
+.gmail {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+
+.gmail pre {
+    color: white;
+    font-size: large;
+}
+
+.instagram {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.instagram pre {
+    color: white;
+    font-size: large;
+}
+
+.fb {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+}
+
+.fb pre {
+    color: white;
+    font-size: large;
+}
